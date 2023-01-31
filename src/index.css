@@ -1,3 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:"Space Grotesk", sans-serif;
+
+}
+
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +15,53 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin: 0% 10%;
+  background-image: linear-gradient(0deg, rgb(213, 229, 183) 0%, rgb(213, 229, 183) 17%,rgb(189, 213, 190) 17%, rgb(189, 213, 190) 29%,rgb(166, 196, 196) 29%, rgb(166, 196, 196) 38%,rgb(142, 180, 203) 38%, rgb(142, 180, 203) 47%,rgb(118, 164, 210) 47%, rgb(118, 164, 210) 58%,rgb(95, 147, 216) 58%, rgb(95, 147, 216) 88%,rgb(71, 131, 223) 88%, rgb(71, 131, 223) 100%),linear-gradient(157.5deg, rgb(213, 229, 183) 0%, rgb(213, 229, 183) 17%,rgb(189, 213, 190) 17%, rgb(189, 213, 190) 29%,rgb(166, 196, 196) 29%, rgb(166, 196, 196) 38%,rgb(142, 180, 203) 38%, rgb(142, 180, 203) 47%,rgb(118, 164, 210) 47%, rgb(118, 164, 210) 58%,rgb(95, 147, 216) 58%, rgb(95, 147, 216) 88%,rgb(71, 131, 223) 88%, rgb(71, 131, 223) 100%),linear-gradient(112.5deg, rgb(213, 229, 183) 0%, rgb(213, 229, 183) 17%,rgb(189, 213, 190) 17%, rgb(189, 213, 190) 29%,rgb(166, 196, 196) 29%, rgb(166, 196, 196) 38%,rgb(142, 180, 203) 38%, rgb(142, 180, 203) 47%,rgb(118, 164, 210) 47%, rgb(118, 164, 210) 58%,rgb(95, 147, 216) 58%, rgb(95, 147, 216) 88%,rgb(71, 131, 223) 88%, rgb(71, 131, 223) 100%),linear-gradient(90deg, rgb(213, 229, 183) 0%, rgb(213, 229, 183) 17%,rgb(189, 213, 190) 17%, rgb(189, 213, 190) 29%,rgb(166, 196, 196) 29%, rgb(166, 196, 196) 38%,rgb(142, 180, 203) 38%, rgb(142, 180, 203) 47%,rgb(118, 164, 210) 47%, rgb(118, 164, 210) 58%,rgb(95, 147, 216) 58%, rgb(95, 147, 216) 88%,rgb(71, 131, 223) 88%, rgb(71, 131, 223) 100%),linear-gradient(90deg, rgb(173, 92, 95),rgb(110, 20, 174)); background-blend-mode:overlay,overlay,overlay,overlay,normal;
+  background-repeat: no-repeat;
+  background-size: cover;
+  scroll-behavior: smooth ease 0.5;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h4 {
+  font-size: 1rem;
+  color: rgb(51, 51, 51);
+}
+h5{
+  margin-top: 10%;
+  font-size: 1rem;
+  line-height: 200%;
+  letter-spacing: 0.8px;
+  color: rgb(12, 12, 12);
+}
+h3 {
+  font-size: 1.5rem;
+  color: #1A0000;
+  line-height: 2.5rem;
+  margin: 2rem 0rem;
+}
+a {
+  color: rgb(71, 0, 85);
+}
+
+.indicator {
+  display: flex;
+  flex-flow: row;
+  border: none;
+  background: none;
+  color: #ffffff;
+  padding: 2px;
+  margin: 2px;
+  width: 300px;
+  height: 200px;
+}
+.indicator img{
+  border-radius: 50%;
+}
+
+
+
