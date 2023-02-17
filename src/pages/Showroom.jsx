@@ -46,7 +46,8 @@ const Grid = styled(motion.div)`
 const Card = styled.div`
 img {
   width: 100%;
-  border-radius: 2rem;
+  height: 60%;
+  border-radius: 1.3rem;
 }
 a {
   text-decoration: none;
